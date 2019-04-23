@@ -1,0 +1,57 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  width: 30%;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.date {
+  margin-top: 20px;
+}
+
+.converter {
+  margin-left: 13%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+}
+
+label {
+  display: flex;
+}
+
+#input-currency {
+  color: #bfbfbf;
+}
+
+.currency-name {
+  margin: 40px 0;
+}
+
+.icon {
+  margin: 40px 10.4%;
+  user-select: none;
+}
+
+i {
+  cursor: pointer;
+  color: #bfbfbf;
+  transition: color 0.2s ease-out;
+}
+
+i:hover {
+  color: #ffffff;
+  transition: color 0.2s ease-out;
+}
